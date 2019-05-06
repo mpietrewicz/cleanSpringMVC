@@ -7,6 +7,7 @@
     <groupId>com.mpietrewicz</groupId>
     <artifactId>cleanSpringMVC</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <spring.version>5.1.6.RELEASE</spring.version>
@@ -25,6 +26,7 @@
         <pluginManagement>
             <plugins>
                 <plugin>
+                    <!-- Run configuration: maven -> command line: tomcat7:run -->
                     <groupId>org.apache.tomcat.maven</groupId>
                     <artifactId>tomcat7-maven-plugin</artifactId>
                     <version>${maven-plugin.version}</version>
