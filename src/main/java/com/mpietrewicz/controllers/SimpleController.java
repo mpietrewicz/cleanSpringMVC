@@ -11,4 +11,9 @@ public class SimpleController {
         return "mainPage";
     }
 
+    @GetMapping({"/date"})
+    public String showaActualDate() {
+        return "date";
+    }
+
 }
